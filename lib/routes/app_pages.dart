@@ -8,6 +8,10 @@ abstract class AppPages {
     GetPage(
       name: Routes.HOME,
       page: () => HomePage(),
-    )
+    ),
+    GetPage(
+      name: Routes.EXPANDIBLECARDPAGE,
+      page: () => const ExpandibleCardPage(),
+    ),
   ];
 }
