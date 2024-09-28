@@ -8,7 +8,7 @@ void main() {
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.EXPANDIBLECARDPAGE,
+      initialRoute: Routes.DRAWONIMAGEPAGE,
       defaultTransition: Transition.fade,
       getPages: AppPages.pages,
       initialBinding: HomeBinding(),

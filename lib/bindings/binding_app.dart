@@ -9,3 +9,10 @@ class HomeBinding implements Bindings {
     Get.lazyPut<ExpandibleCardController>(() => ExpandibleCardController());
   }
 }
+
+class DrawOnImageBinding implements Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut<DrawOnImageController>(() => DrawOnImageController());
+  }
+}
